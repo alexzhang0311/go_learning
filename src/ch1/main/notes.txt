@@ -1,0 +1,9 @@
+应用程序入口
+
+1. 必须是main包: package main
+2. 必须是main方法：func main()
+3. 文件名不一定是main.go
+
+程序退出返回值
+1. Go中main函数不支持使用return任何返回值
+2. 通过os.Exit来返回状态
